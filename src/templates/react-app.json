@@ -1,0 +1,26 @@
+{
+    "name": "react-app",
+    "structure": {
+        "src": {
+            "components": {},
+            "hooks": {},
+            "utils": {},
+            "context": {}
+        },
+        "docs": {
+            "architecture.md": "",
+            "context.md": "",
+            "decisions.md": ""
+        },
+        "tests": {}
+    },
+    "dependencies": {
+        "core": ["react", "react-dom"],
+        "recommended": ["lodash", "tailwindcss"]
+    },
+    "patterns": {
+        "stateManagement": "contextAPI",
+        "styling": "tailwind",
+        "testing": "jest"
+    }
+}

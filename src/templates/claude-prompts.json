@@ -1,0 +1,19 @@
+{
+  "contextPreservation": {
+    "stateLoad": "Load project state from {projectName}, last checkpoint: {checkpoint}",
+    "stateHandoff": "Project {projectName} requires continuation. Current state: {state}",
+    "patternApplication": "Apply pattern {patternName} with context: {context}"
+  },
+  "projectTypes": {
+    "react": {
+      "setup": "Creating React project with {features}",
+      "stateManagement": "Implementing state using {pattern}",
+      "componentStructure": "Organizing components with {architecture}"
+    },
+    "api": {
+      "setup": "Designing API with {specifications}",
+      "endpoints": "Implementing endpoints for {features}",
+      "documentation": "Generating API documentation for {endpoints}"
+    }
+  }
+}
